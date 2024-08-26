@@ -1,4 +1,3 @@
-const API = "https://dummyjson.com/quotes/random";
 const quote = document.querySelector(".container h3");
 const authorr = document.querySelector(".container p");
 const refreshBtn = document.querySelector(".container button");

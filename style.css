@@ -15,6 +15,8 @@ body {
   height: 100vh;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
+  gap: 14px;
   justify-content: center;
   align-items: center;
   background: linear-gradient(
@@ -23,14 +25,9 @@ body {
     rgb(79, 79, 194),
     rgb(194, 82, 136)
   );
-  position: relative;
 }
 
 .heading {
-  position: absolute;
-  left: 50%;
-  top: 50px;
-  transform: translateX(-50%);
   color: rgba(245, 245, 245, 0.685);
 }
 
